@@ -1,0 +1,6 @@
+Rotating an Array 'N' of times?
+Sol) 
+    Integer[] arr = {0,1,2,3,4};
+    Collections.rotate(Arrays.asList(arr), 2);
+    System.out.println(Arrays.toString(arr)); //[3, 4, 0, 1, 2]
+    
